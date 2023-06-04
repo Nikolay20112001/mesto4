@@ -1,8 +1,4 @@
 .popup__form {
     display: grid;
-}
-
-@media screen and (max-width: 320px){
-    .popup__form {
-    }
+    grid-template-columns: minmax(282px, 430px);
 }
